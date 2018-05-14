@@ -1,0 +1,12 @@
+server:
+  port: 1001
+
+spring:
+  application:
+     name: prueba-api
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: prueba
+    password: prueba
+    driver-class-name: oracle.jdbc.OracleDriver
+
